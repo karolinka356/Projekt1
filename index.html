@@ -7,15 +7,16 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet" />
+
+		<link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+		<link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
+		<link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
+
 		<link rel="stylesheet" href="reset.css" />
 		<link rel="stylesheet" href="style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
 		<title>Projekt 1 - Karolina Hap</title>
 	</head>
 	<body>
-		<!--NAWIGACJA-->
 		<nav>
 			<div class="container">
 				<p>Nazwa Firmy</p>
@@ -27,27 +28,26 @@
 			</div>
 		</nav>
 
-		<!--HEADER-->
 		<header>
-			<img src="tlo.png" alt="" />
+			<img src="assets/tlo.png" alt="Kolorowe Dmuchawce" />
 			<div class="shadow">
 				<div class="container">
-					<h1>Nasza firma oferuje najwyższej <br />jakości produkty.</h1>
+					<h1>Nasza firma oferuje najwyższej jakości produkty.</h1>
 					<p>Nie wierz nam na słowo - sprawdź</p>
-					<button class="button-offer"><a href="oferta.html">oferta</a></button>
+					<a href="oferta.html">oferta</a>
 				</div>
 			</div>
 		</header>
 
-		<!--MAIN-->
 		<main>
 			<section class="person-company" id="about">
 				<div class="container">
 					<h2>Nasi specjaliści</h2>
+
 					<ul class="person-list">
-						<li class="people-one">
-							<img src="people_one.png" alt="" />
-							<div class="people-info">
+						<li>
+							<div class="photo1-bg"></div>
+							<div class="text">
 								<h3>Imię i Nazwisko [Dział]</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non
@@ -58,9 +58,9 @@
 							</div>
 						</li>
 
-						<li class="people-two">
-							<img src="people_two.png" alt="" />
-							<div class="people-info">
+						<li>
+							<div class="photo2-bg"></div>
+							<div class="text">
 								<h3>Imię i Nazwisko [Dział]</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non
@@ -68,7 +68,7 @@
 									elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero
 									ultrices in.
 								</p>
-							</div>							
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -79,29 +79,27 @@
 					<h2>Czym zajmuje się nasza firma?</h2>
 					<div class="flex-boxes">
 						<div class="special-box">
-							Usługa 1 <br/> (nowość)							
+							<p>Usługa 1 (nowość)</p>
 							<div class="circle"></div>
-							</div>
-							<div>Usługa 2</div>
-            				<div>Usługa 3</div>
-            				<div>Usługa 4</div>
-            				<div>Usługa 5</div>
-            				<div>Usługa 6</div>							
 						</div>
+						<div>Usługa 2</div>
+						<div>Usługa 3</div>
+						<div>Usługa 4</div>
+						<div>Usługa 5</div>
+						<div>Usługa 6</div>
 					</div>
 				</div>
 			</section>
-
 		</main>
 
 		<footer>
-			<div class="container">			
+			<div class="container">
 				<p>Nazwa Firmy - wszelkie prawa zastrzeżone, 2019</p>
-				<div class="icon">	
-				<img src="instagram.svg" alt="" />
-				<img src="square-facebook.svg" alt=""/>
+				<div class="icon">
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-square-facebook"></i>
 				</div>
-			</div>				
+			</div>
 		</footer>
 	</body>
 </html>
